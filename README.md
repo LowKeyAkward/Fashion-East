@@ -68,7 +68,7 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-[https://i.imgur.com/vO5iVd7.png](url)
+![https://i.imgur.com/vO5iVd7.png](url)
 
 - Desktop Landing
 
