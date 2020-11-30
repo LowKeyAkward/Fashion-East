@@ -39,7 +39,7 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 - _User is able to Comment._
 - _Site is styled._
 - _User is able to sign in and out._
-- _etc._
+- _User is able to like posts._
 
 <br>
 
@@ -70,9 +70,9 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 - Desktop Home
 
-![Desktop Home](https://i.imgur.com/TxQUJoO.png)
+![Filtered Posts](https://i.imgur.com/TxQUJoO.png)
 
-- c
+- Filtered Posts
 
 ![Post Details](https://i.imgur.com/EvVLfQZ.png)
 
@@ -135,9 +135,10 @@ src
 | Authentication      |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
 | Bookmarks           |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
 | Animations          |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Tags                |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Filter              |    L     |     2 hrs      |     2 hrs     |    3 hrs    |
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     29 hrs      |     3 hrs     |     TBD     |
+| TOTAL               |          |     31 hrs      |     3 hrs     |     TBD     |
 
 
 <br>
@@ -157,6 +158,8 @@ src
 - Add Authentication._
 - Animations._
 - Bookmarks._
+- Tags._
+- Filters._
 
 ***
 
