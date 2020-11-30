@@ -68,27 +68,27 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![https://i.imgur.com/vO5iVd7.png](url)
+![Desktop Landing](https://i.imgur.com/vO5iVd7.png)
 
 - Desktop Landing
 
-![https://i.imgur.com/impygIb.png](url)
+![Desktop Home](https://i.imgur.com/impygIb.png)
 
 - Desktop Home
 
-![https://i.imgur.com/TxQUJoO.png](url)
+![Desktop Home](https://i.imgur.com/TxQUJoO.png)
 
-- Desktop Filtered page
+- c
 
-![https://i.imgur.com/EvVLfQZ.png](url)
+![Post Details](https://i.imgur.com/EvVLfQZ.png)
 
 - Post Details
 
-![https://i.imgur.com/MeInEq8.png](url)
+![Post Creation]([https://i.imgur.com/MeInEq8.png)
 
 - Post Creation
 
-![https://imgur.com/a/tkhq0BS](url)
+![Mobile](https://i.imgur.com/iSF2Sdz.png)
 
 - Mobile Resource Index
 
@@ -129,7 +129,7 @@ src
 
 > Use this section to include a link to your component tree.
 
-[Component tree](url)
+[Component tree](https://i.imgur.com/zNJphYR.png)
 
 #### Time Estimates
 
@@ -159,7 +159,7 @@ src
 
 #### ERD Model
 
-![https://i.imgur.com/ILzXqTL.png](url)
+![ERD](https://i.imgur.com/ILzXqTL.png)
 
 <br>
 
