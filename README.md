@@ -48,12 +48,12 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-|       Ruby       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   Ruby on Rails  | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|      Cors        | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | _Will render the frontend._                |
+|   React Router   | _Allows the usage of links and routes._    |
+|       Ruby       | _language that's used in the backend._     |
+|   Ruby on Rails  | _Used to create the database            ._ |
+|      Axios       | _Renders the database to the front end._   |
+|      Cors        | _allows requests from other domains._      |
 
 <br>
 
@@ -86,8 +86,6 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 - Mobile Resource Index
 
-#### Component Tree 
-
 #### Component Hierarchy
  
 
@@ -113,6 +111,7 @@ src
             |__ Header.jsx
             |__ Footer.jsx
 |__ services/
+      |__ axioReqs.js
 
 ```
 
