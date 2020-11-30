@@ -1,9 +1,5 @@
 # Fashionable East <!-- omit in toc -->
 
-> The Project Planning section **should be completed** for your project pitch with instructors.
->
-> To ensure correct Markdown, copy and paste the raw template code into your project repo README file. Remove ALL template instructions and replace with your project details.
-
 - [Overview](#overview)
 - [MVP](#mvp)
   - [Goals](#goals)
@@ -49,7 +45,6 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
@@ -66,7 +61,6 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
 ![Desktop Landing](https://i.imgur.com/vO5iVd7.png)
 
@@ -92,13 +86,10 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 - Mobile Resource Index
 
-#### Component Tree
-
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
+#### Component Tree 
 
 #### Component Hierarchy
-
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
+ 
 
 ``` structure
 
@@ -127,13 +118,11 @@ src
 
 #### Component Tree
 
-> Use this section to include a link to your component tree.
 
 [Component tree](https://i.imgur.com/zNJphYR.png)
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
@@ -151,7 +140,6 @@ src
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | TOTAL               |          |     29 hrs      |     3 hrs     |     TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
 
 <br>
 
@@ -159,7 +147,7 @@ src
 
 #### ERD Model
 
-![ERD](https://i.imgur.com/ILzXqTL.png)
+![ERD](https://i.imgur.com/PZSaPQk.png)
 
 <br>
 
