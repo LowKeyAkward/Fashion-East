@@ -84,7 +84,7 @@ _The **Fashionable East** MVP will have fully functional CRUD, a user account, u
 
 - Post Details
 
-![Post Creation]([https://i.imgur.com/MeInEq8.png)
+![Post Creation](https://i.imgur.com/MeInEq8.png)
 
 - Post Creation
 
