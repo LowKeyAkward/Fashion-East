@@ -1,4 +1,4 @@
-# Fashionable East <!-- omit in toc -->
+  # Fashionable East <!-- omit in toc -->
 
 - [Overview](#overview)
 - [MVP](#mvp)
