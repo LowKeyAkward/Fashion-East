@@ -2,6 +2,7 @@ import {Switch, Route} from "react-router-dom"
 
 import './App.css';
 import Layout from "./layouts/Layout"
+import Login from "./screens/Login"
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           </Route>
 
           <Route path="/login">
-            {/* Login */}
+            <Login/>
           </Route>
 
           <Route path="/register">
@@ -24,7 +25,7 @@ function App() {
           <Route path = "/">
             {/* Post Detailed */}
           </Route>
-          
+
         </Switch> 
      </Layout>
     </div>
