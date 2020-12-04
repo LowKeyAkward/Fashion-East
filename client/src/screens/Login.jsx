@@ -17,7 +17,11 @@ function Login(props) {
 
   return (
     <div>
-      <form>
+      <form onSubmit={(e) => {
+        e.preventDefault
+        props.handleLogin(formData)
+      }}>
+        
         <h3>Login</h3>
         <label> Username:
           <input
@@ -38,7 +42,7 @@ function Login(props) {
             />
           </label>
         <br />
-        
+
       <Link to ="/register">Register</Link>
       <button>Submit</button>
       </form>
