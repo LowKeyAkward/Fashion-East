@@ -8,7 +8,13 @@ function Header(props) {
 
       <h1>Fashion East</h1>
       {
-        currentUser ? <p>hi</p> :<Link to="/login">Login/Register</Link>
+        currentUser ?
+          <>
+            <p>{currentUser.username}</p>
+            <button onClick={props.handleLogout}>Logout</button>
+          </>
+          :
+          <Link to="/login">Login/Register</Link>
       }
 
       

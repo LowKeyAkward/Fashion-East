@@ -22,7 +22,7 @@ function Register(props) {
         props.handleRegister(formData)
       }}>
         
-        <h3>Login</h3>
+        <h3>Register</h3>
         <label> Username:
           <input
             type="text"

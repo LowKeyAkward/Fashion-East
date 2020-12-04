@@ -7,7 +7,7 @@ import Login from "./screens/Login"
 import Register from "./screens/Register"
 import Landing from "./screens/Landing"
 import Home from "./screens/Home"
-import {loginUser, registerUser, verifyUser} from "./services/auth"
+import {loginUser, registerUser, removeToken, verifyUser} from "./services/auth"
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null)
@@ -25,18 +25,27 @@ function App() {
   const handleLogin = async (loginData) => {
     const userData = await loginUser(loginData)
     setCurrentUser(userData)
-    history.push("/")
+    history.push("/home")
   }
 
   const handleRegister = async (registerData) => {
     const userData = await registerUser(registerData)
     setCurrentUser(userData)
-    history.push("/")
+    history.push("/home")
+  }
+
+  const handleLogout = () => {
+    setCurrentUser(null)
+    localStorage.removeItem('authToken')
+    removeToken()
   }
 
   return (
     <div className="App">
-      <Layout currentUser = {currentUser}>
+      <Layout
+        currentUser={currentUser}
+        handleLogout={handleLogout}
+      >
 
       <Route exact path = "/">
         {/* Landing */}
