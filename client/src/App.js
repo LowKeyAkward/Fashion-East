@@ -10,6 +10,7 @@ import Home from "./screens/Home"
 import PostDetail from "./screens/PostDetail";
 import CreatePost from "./screens/CreatePost"
 import {loginUser, registerUser, removeToken, verifyUser} from "./services/auth"
+import PostEdit from "./screens/PostEdit";
 
 
 function App() {
@@ -71,6 +72,10 @@ function App() {
       
       <Route exact path="/posts/:id">
           <PostDetail currentUser={currentUser}/>    
+      </Route>
+        
+      <Route exact path="/posts/:id/edit">
+          <PostEdit currentUser={currentUser}/>    
       </Route>
         
       <Route exact path="/posts/create">
