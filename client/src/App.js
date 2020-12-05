@@ -8,6 +8,7 @@ import Register from "./screens/Register"
 import Landing from "./screens/Landing"
 import Home from "./screens/Home"
 import {loginUser, registerUser, removeToken, verifyUser} from "./services/auth"
+import PostDetail from "./screens/PostDetail";
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null)
@@ -64,6 +65,10 @@ function App() {
       <Route exact path="/register">
         {/* Register */}
         <Register handleRegister = {handleRegister} />
+      </Route>
+      
+      <Route exact path="/posts/:id">
+          <PostDetail currentUser={currentUser}/>    
       </Route>
 
      </Layout>
