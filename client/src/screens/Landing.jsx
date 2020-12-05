@@ -11,7 +11,8 @@ function Landing(props) {
 
   return (
     <div className="landing-div">
-      <div className="landing-title">
+      <div className="enter-div">
+        <div className="landing-title">
         <h1>Welcome</h1>
         <h1>To</h1>
         <h1>Fashion East</h1>
@@ -19,6 +20,7 @@ function Landing(props) {
         <button  className="landing-button" onClick={handleOnSubmit}>
           Enter
         </button>
+      </div>
     </div>
   );
 }

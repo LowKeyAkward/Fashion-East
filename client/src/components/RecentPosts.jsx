@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function RecentPosts(props) {
   return (
     <div className = "recent-posts">
-      <Link to={`/posts/${props.id}`}>
+      <Link to={`/posts/${props.id}/details`}>
       <img
         className="recent-image"
         src={props.image}

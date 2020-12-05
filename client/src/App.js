@@ -70,7 +70,7 @@ function App() {
         <Register handleRegister = {handleRegister} />
       </Route>
       
-      <Route exact path="/posts/:id">
+      <Route exact path="/posts/:id/details">
           <PostDetail currentUser={currentUser}/>    
       </Route>
         
