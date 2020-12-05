@@ -60,7 +60,23 @@ function PostEdit(props) {
             onChange={handleChange}
           />
 
-          <label className="edit-image">Title</label>
+          <label className="edit-category">Category</label>
+          <select
+            className="edit-category-input"
+            value={post.category}
+            name="category"
+            required
+            onChange={handleChange}>
+              
+            <option>Korean</option>
+              
+            <option>Japanese</option>
+              
+            <option>Hairstyle</option>
+
+          </select>
+
+          <label className="edit-image">Image</label>
           <input
             className="edit-image-input"
             placeholder="New Image URL"
@@ -70,7 +86,37 @@ function PostEdit(props) {
             onChange={handleChange}
           />
 
-          <label className="edit-content">Title</label>
+          <label className="edit-outfit">Outfit</label>
+          <input
+            className="edit-outfit-input"
+            placeholder="New Outfit Name"
+            value={post.outfit}
+            name="outfit"
+            required
+            onChange={handleChange}
+          />
+
+          <label className="edit-price">Price</label>
+          <input
+            className="edit-price-input"
+            placeholder="New Price"
+            value={post.price}
+            name="price"
+            required
+            onChange={handleChange}
+          />
+
+          <label className="edit-tag">Tag</label>
+          <input
+            className="edit-tag-input"
+            placeholder="New Tag"
+            value={post.tags}
+            name="tags"
+            required
+            onChange={handleChange}
+          />
+
+          <label className="edit-content">Description/Content</label>
           <textarea
             className="edit-content-input"
             placeholder="Enter Text"
@@ -81,9 +127,13 @@ function PostEdit(props) {
             required
             onChange={handleChange}
           />
-          
+        
+          <button type="submit" className="save-button">
+            Save Changes
+          </button>
+       
         </form>
-      
+
       </div>
       
     </div>
