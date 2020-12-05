@@ -1,9 +1,12 @@
 import React from 'react';
+import MainContainer from '../containers/MainContainer';
+import mainContainer from '../containers/MainContainer'
 
 function Home(props) {
   return (
     <div>
-      <div className="trending">
+      <MainContainer/>
+      {/* <div className="trending">
         
         <div>Todays Top Outfits</div>
         
@@ -21,7 +24,7 @@ function Home(props) {
         
         <div className="posts"> </div>
       
-      </div>
+      </div> */}
     </div>
   );
 }

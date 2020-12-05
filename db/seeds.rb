@@ -15,6 +15,7 @@ User.destroy_all
 puts "#{User.count} users created"
 
 @post1 = Post.create!(
+  title: 'Comfy Times',
   image: 'https://www.imagup.com/wp-content/uploads/2020/02/Korean-Fashion-2.jpg', 
   content: 'Look at my shirt, my shirt is amazing', 
   price:'50', 
