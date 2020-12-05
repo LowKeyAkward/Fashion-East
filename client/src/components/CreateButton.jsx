@@ -1,6 +1,7 @@
 import React from 'react';
 import Addbutton from "../assets/icons/button.png"
-import {useHistory} from "react-router-dom"
+import { useHistory } from "react-router-dom"
+import "./CreateButton.css"
 
 function CreateButton(props) {
   const history = useHistory()
@@ -10,9 +11,9 @@ function CreateButton(props) {
   }
 
   return (
-    <div>
-      <button onClick={handleClick}>
-        <image src={Addbutton} alt="Create Post"/>
+    <div className="button-div">
+      <button className="button" onClick={handleClick}>
+        <img className="button-icon" src={Addbutton} alt="Create Post"/>
       </button>
     </div>
   );
