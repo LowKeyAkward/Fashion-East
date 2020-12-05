@@ -1,6 +1,5 @@
 import React from 'react';
 import MainContainer from '../containers/MainContainer';
-import mainContainer from '../containers/MainContainer'
 
 function Home(props) {
   return (

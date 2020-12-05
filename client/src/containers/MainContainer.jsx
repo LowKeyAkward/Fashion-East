@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import RecentPosts from '../components/RecentPosts';
 import { getAllPosts } from '../services/post'
 
 
@@ -13,9 +14,19 @@ function MainContainer(props) {
     fetchPosts()
   }, [])
 
+  const recentPosts = posts.map((post, index) => (
+    <RecentPosts
+      id={post.id}
+      image={post.image}
+      title={post.title}
+      key={index}
+    />
+  ))
+
   return (
     <div>
       <h3>hello</h3>
+      <div>{recentPosts}</div>
     </div>
   );
 }
