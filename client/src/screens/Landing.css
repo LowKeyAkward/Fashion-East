@@ -1,0 +1,19 @@
+body{
+  /* background-color: black; */
+}
+
+.landing-div{
+  border: solid blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.landing-title{
+  border: solid red;
+}
+
+.landing-button{
+  border: solid green;
+}

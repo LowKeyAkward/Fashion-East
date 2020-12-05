@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import React,{ useState } from 'react';
 import { Redirect } from "react-router-dom"
+import { postPost } from '../services/post';
 
 function CreatePost(props) {
   const [post, setPost] = useState({
@@ -24,7 +25,7 @@ function CreatePost(props) {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    const created = await CreatePost(post)
+    const created = await postPost(post)
     setIsCreated({created})
   }
 
