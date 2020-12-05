@@ -74,9 +74,7 @@ function App() {
           <PostDetail currentUser={currentUser}/>    
       </Route>
         
-      <Route exact path="/posts/:id/edit">
-          <PostEdit currentUser={currentUser}/>    
-      </Route>
+      <Route exact path="/posts/:id/edit" component={ PostEdit }/>
         
       <Route exact path="/posts/create">
           <CreatePost currentUser={currentUser}/>    

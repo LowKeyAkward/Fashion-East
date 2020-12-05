@@ -25,7 +25,7 @@ function MainContainer(props) {
 
   return (
     <div>
-      <h3>hello</h3>
+      <h3>Recent Posts</h3>
       <div>{recentPosts}</div>
     </div>
   );
