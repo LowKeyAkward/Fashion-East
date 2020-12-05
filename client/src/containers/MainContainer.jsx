@@ -14,7 +14,7 @@ function MainContainer(props) {
     fetchPosts()
   }, [])
 
-  const recentPosts = posts.map((post, index) => (
+  const recentPosts = posts.slice(0).reverse().map((post, index) => (
     <RecentPosts
       id={post.id}
       image={post.image}
@@ -24,7 +24,7 @@ function MainContainer(props) {
   ))
 
   return (
-    <div>
+    <div className="recent-posts-container">
       <h3>Recent Posts</h3>
       <div>{recentPosts}</div>
     </div>

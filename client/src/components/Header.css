@@ -1,0 +1,40 @@
+.header-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-style: solid;
+  border-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-title{
+  border-style: solid;
+  border-color: blue;
+}
+
+.header-sign{
+  display: flex;
+  position: fixed;
+  right: 0;
+  border-style: solid;
+  border-color: green;
+}
+
+.header-username{
+  border-style: solid;
+  border-color: purple;
+}
+
+.header-button{
+  border-style: solid;
+  border-color: grey;
+}
+
+.header-link{
+  border-style: solid;
+  border-color: grey;
+}

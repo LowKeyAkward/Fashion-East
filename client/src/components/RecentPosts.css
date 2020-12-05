@@ -1,0 +1,10 @@
+.recent-image{
+  height: 300px;
+  width: auto;
+}
+
+.recent-posts{
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
