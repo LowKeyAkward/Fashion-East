@@ -44,6 +44,7 @@ function CreatePost(props) {
                 className="input-title"
                 placeholder="Title"
                 value={post.title}
+                name="title"
                 required
                 autoFocus
                 onChange={handleChange}
