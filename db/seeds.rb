@@ -21,7 +21,8 @@ puts "#{User.count} users created"
   price:'50', 
   tags:'trendy',
   outfit:'Gucci Shirt', 
-  user: @admin
+  user: @admin,
+  category: "Korean"
 )
 
 puts "#{Post.count} posts created"

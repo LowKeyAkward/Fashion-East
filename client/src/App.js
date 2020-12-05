@@ -7,8 +7,10 @@ import Login from "./screens/Login"
 import Register from "./screens/Register"
 import Landing from "./screens/Landing"
 import Home from "./screens/Home"
-import {loginUser, registerUser, removeToken, verifyUser} from "./services/auth"
 import PostDetail from "./screens/PostDetail";
+import CreatePost from "./screens/CreatePost"
+import {loginUser, registerUser, removeToken, verifyUser} from "./services/auth"
+
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null)
@@ -69,6 +71,10 @@ function App() {
       
       <Route exact path="/posts/:id">
           <PostDetail currentUser={currentUser}/>    
+      </Route>
+        
+      <Route exact path="/posts/create">
+          <CreatePost currentUser={currentUser}/>    
       </Route>
 
      </Layout>
