@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import TrendingPosts from '../components/TrendingPosts';
 import { getAllPosts } from '../services/post'
+import "./TrendingContainer.css"
 
 function TrendingContainer(props) {
 
@@ -24,9 +25,12 @@ function TrendingContainer(props) {
   ))
 
   return (
-    <div>
+    <div >
       <h2>Trending</h2>
-      <div>{trendingPosts}</div>
+      <div className="slideshow-container">
+        <div className="image-trending">{trendingPosts}</div>
+      </div>
+      
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import "./TrendingPosts.css"
 
 function TrendingPosts(props) {
   return (
-    <div className = "trending-posts">
       <Link to={`/posts/${props.id}/details`}>
       <img
         className="trending-image"
@@ -11,7 +11,6 @@ function TrendingPosts(props) {
         alt={props.title}
       />
       </Link>
-    </div>
   );
 }
 
