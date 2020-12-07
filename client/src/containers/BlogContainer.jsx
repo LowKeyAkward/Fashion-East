@@ -5,7 +5,7 @@ import "./BlogContainer.css"
 function BlogContainer(props) {
   return (
     <div className="blog-div">
-      <img className="blog-image" src={BlogImage} alt="blog image" />
+      <img className="blog-image" src={BlogImage} alt="blog" />
       <div className="blog-content">
         <h2 className="blog-title">Winter Fashion Tips</h2>
         <p className="blog-text">

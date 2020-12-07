@@ -12,10 +12,10 @@ function Header(props) {
       <div className="header-sign">
         {
           currentUser ?
-            <>
-              <p className="header-username">{currentUser.username}</p>
+            <div className="signout">
+              <p className="header-username">Welcome Back {currentUser.username}</p>
               <button className="header-button" onClick={props.handleLogout}>Logout</button>
-            </>
+            </div>
             :
             <Link className="header-link" to="/login">Login/Register</Link>
         }

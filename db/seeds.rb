@@ -61,5 +61,6 @@ puts "#{User.count} users created"
 puts "#{Post.count} posts created"
 
 @comment1 = Comment.create!(content:'dang i love myself', user: @admin, post: @post1)
+@comment2 = Comment.create!(content:'Cant stop myself from coming back', user: @admin, post: @post1)
 
 puts "#{Comment.count} comments created"

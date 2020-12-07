@@ -1,0 +1,44 @@
+.post-detail{
+  border: solid purple;
+  /* display: flex; */
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.post-detail-image{
+  border: solid red;
+  height: 700px;
+  width: auto;
+}
+
+.post-detail-div{
+  border: solid blue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.detail{
+  border: solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.detail-title{
+  border: solid black;
+}
+
+.detail-outfit{
+  border: solid pink;
+}
+
+.detail-price{
+  border: solid red;
+}
+
+.detail-button-container{
+  border: solid blue;
+  display: flex;
+  justify-content: space-evenly;
+}

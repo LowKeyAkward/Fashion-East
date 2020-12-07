@@ -10,6 +10,7 @@ function TrendingContainer(props) {
   useEffect(() => {
     const fetchPosts = async () => {
       const postData = await getAllPosts()
+      console.log(postData)
       setPosts(postData)
     }
     fetchPosts()
