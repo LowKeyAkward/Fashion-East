@@ -18,8 +18,10 @@
 
 .blog-title{
   border: solid red;
+  font-size: 40px;
 }
 
 .blog-text{
   border: solid purple;
+  font-size: 23px;
 }
