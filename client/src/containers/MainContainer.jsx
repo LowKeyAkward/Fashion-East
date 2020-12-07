@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import RecentPosts from '../components/RecentPosts';
 import { getAllPosts } from '../services/post'
+import "./MainContainer.css"
 
 
 function MainContainer(props) {
@@ -25,8 +26,10 @@ function MainContainer(props) {
 
   return (
     <div className="recent-posts-container">
-      <h3>Recent Posts</h3>
-      <div>{recentPosts}</div>
+      <h3 className="recent-title">Recent Posts</h3>
+      <div className="recent-posts">
+        <div className = "recent-div">{recentPosts}</div>
+      </div>
     </div>
   );
 }

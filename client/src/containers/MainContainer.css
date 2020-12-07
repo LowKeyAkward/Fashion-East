@@ -1,0 +1,22 @@
+.recent-posts-container{
+  border: solid red;
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.recent-title {
+  border: solid blue;
+}
+
+.recent-posts{
+  border: solid green;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 1000px;
+}
+
+.recent-div{
+  border: solid purple;
+}
