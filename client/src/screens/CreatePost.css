@@ -1,0 +1,20 @@
+.create-post-div{
+  border: solid black;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 25px;
+}
+
+.form-container{
+  /* border: solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.create-title-input{
+  /* border: solid purple; */
+  display: flex;
+  flex-direction: column;
+}
+

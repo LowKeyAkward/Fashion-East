@@ -25,7 +25,7 @@ function PostDetail(props) {
 
   const postComments = comment.filter(post => post.post_id == id).map((comments, index) => {
     return (
-      <div key={index }>{comments.content}</div>
+      <div className="comments" key={index }>{comments.content}</div>
     )
   })
 
@@ -70,7 +70,7 @@ function PostDetail(props) {
 
           </div>
           
-          <div className="detail-button-container">
+          <div className={props.id === post.user_id ? "detail-button-container" : "detail-button-container hidden" }>
 
             <button className ="edit-button">
               <Link className="edit-link" to={`/posts/${post.id}/edit`}>
@@ -88,7 +88,7 @@ function PostDetail(props) {
         
       </div>
       
-      <div>{ postComments }</div>
+      <div className = "comment-div" >{ postComments }</div>
 
     </div>
   );

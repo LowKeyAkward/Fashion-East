@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import { Redirect } from "react-router-dom"
 import { postPost } from '../services/post';
+import "./CreatePost.css"
 
 function CreatePost(props) {
   const [post, setPost] = useState({
@@ -34,40 +35,37 @@ function CreatePost(props) {
   }
 
   return (
-    <div user={props.currentUser}>
+    <div user={props.currentUser} className="create-post-div">
       <h1 className="create-title"> Create Post</h1>
       <div className="form-container">
         <form className="create-form" onSubmit={handleSubmit}>
           <div className="input-container">
-            
-            <div className="create-title-input">
-              <input
-                className="input-title"
-                placeholder="Title"
-                value={post.title}
-                name="title"
-                required
-                autoFocus
-                onChange={handleChange}
-              />
-
-              <div className="dropdown">
-                <label className="label-cat">Select Category</label>
-                <select
-                  className="input-category"
-                  value={post.category}
-                  name="category"
+              <div className="create-title-input">
+                <input
+                  className="input-title"
+                  placeholder="Title"
+                  value={post.title}
+                  name="title"
                   required
+                  autoFocus
                   onChange={handleChange}
-                >
-                  <option>Korean</option>
-                  <option>Japanese</option>
-                  <option>Hairstyle</option>
-                </select>
-              </div>
-            </div>
+                />
 
-            <input
+                <div className="dropdown">
+                  <label className="label-cat">Select Category</label>
+                  <select
+                    className="input-category"
+                    value={post.category}
+                    name="category"
+                    required
+                    onChange={handleChange}
+                  >
+                    <option>Korean</option>
+                    <option>Japanese</option>
+                    <option>Hairstyle</option>
+                  </select>
+                </div>
+              <input
               className="image-link"
               placeholder="image-url"
               value={post.image}
@@ -99,20 +97,26 @@ function CreatePost(props) {
               name="tags"
               onChange={handleChange}
             />
+              </div>
+
+            
             
             <textarea
               className="content-input"
               placeholder="Enter Text"
               value={post.content}
               name="content"
+              rows={10}
+              cols={78}
               required
               onChange={handleChange}
             />
 
-            <button type="submit" className="submit-button">
+            
+          </div>
+          <button type="submit" className="submit-button">
              Post
             </button>
-          </div>
         </form>
       </div>
     </div>

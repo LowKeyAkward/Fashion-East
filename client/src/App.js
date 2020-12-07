@@ -58,16 +58,16 @@ function App() {
         
       <Route exat path="/home">
           {/* Home */}
-          <Home/>
+          <Home currentUser={currentUser}/>
       </Route>
 
       <Route exact path="/login">
-        <Login handleLogin={handleLogin}/>
+        <Login handleLogin={handleLogin} currentUser={currentUser}/>
       </Route>
 
       <Route exact path="/register">
         {/* Register */}
-        <Register handleRegister = {handleRegister} />
+        <Register handleRegister = {handleRegister}  />
       </Route>
       
       <Route exact path="/posts/:id/details">
