@@ -1,27 +1,15 @@
 import React from 'react';
+import BlogContainer from '../containers/BlogContainer';
+import MainContainer from '../containers/MainContainer';
+import TrendingContainer from '../containers/TrendingContainer';
+import "./Home.css"
 
 function Home(props) {
   return (
-    <div>
-      <div className="trending">
-        
-        <div>Todays Top Outfits</div>
-        
-        <div className ="carousel"> </div>
-      
-      </div>
-
-      <div className="blog">
-
-      </div>
-
-      <div className="recent">
-        
-        <div>Recently Posted</div>
-        
-        <div className="posts"> </div>
-      
-      </div>
+    <div className = "home-div">
+      <TrendingContainer />
+      <BlogContainer/>
+      <MainContainer/>
     </div>
   );
 }

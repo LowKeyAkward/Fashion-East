@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import "./Register.css"
 
 function Register(props) {
   const [formData, setFormData] = useState({
@@ -16,13 +17,13 @@ function Register(props) {
   }
 
   return (
-    <div>
+    <div className="register-div">
       <form onSubmit={(e) => {
         e.preventDefault()
         props.handleRegister(formData)
       }}>
         
-        <h3>Login</h3>
+        <h3>Register</h3>
         <label> Username:
           <input
             type="text"

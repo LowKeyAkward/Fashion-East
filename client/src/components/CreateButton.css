@@ -1,0 +1,16 @@
+
+.button {
+  background-color: none;
+  border: none;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  cursor: pointer;
+  border-radius: 45px;
+  width: 80px;
+}
+
+.button-icon {
+  height: 70px;
+  width:auto;
+}

@@ -1,0 +1,74 @@
+.comments{
+  border: solid black;
+  margin-bottom: 25px;
+  padding: 10px 0px 10px 0px;
+  border-radius: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.comment-div{
+  /* border: solid green; */
+  padding: 25px 10px 25px 10px;
+  background-color: white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.post-detail{
+  /* border: solid purple; */
+  /* display: flex; */
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.post-detail-image{
+  /* border: solid red; */
+  height: 700px;
+  width: auto;
+}
+
+.post-detail-div{
+  /* border: solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.detail{
+  /* border: solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.detail-content{
+  /* border: solid green; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.detail-title{
+  /* border: solid black; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.detail-outfit{
+  /* border: solid pink; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.detail-price{
+  /* border: solid red; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.detail-button-container{
+  /* border: solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+}
