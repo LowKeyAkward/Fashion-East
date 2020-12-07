@@ -88,7 +88,7 @@ function PostDetail(props) {
         
       </div>
       
-      <div className = "comment-div" >{ postComments }</div>
+      <div className = "comment-div" > Comments { postComments }</div>
 
     </div>
   );

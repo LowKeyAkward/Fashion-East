@@ -1,5 +1,5 @@
 .blog-div{
-  border: solid green;
+  border: solid white;
   display: flex;
   width: 80%;
   margin: auto;
@@ -7,7 +7,7 @@
 }
 
 .blog-image{
-  border: solid blue;
+  /* border: solid blue; */
   height: 500px;
   width: auto;
 }
@@ -17,11 +17,15 @@
 }
 
 .blog-title{
-  border: solid red;
+  /* border: solid red; */
   font-size: 40px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .blog-text{
-  border: solid purple;
-  font-size: 23px;
+  /* border: solid purple; */
+  font-size: 22px;
+  color: aliceblue;
+  font-family: 'Quicksand', sans-serif;
 }

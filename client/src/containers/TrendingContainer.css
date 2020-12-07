@@ -1,8 +1,14 @@
 .slideshow-container{
-  border: solid red;
+  border: solid white;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
   margin: auto;
+}
+
+.trending-title{
+  color: aliceblue;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
 }

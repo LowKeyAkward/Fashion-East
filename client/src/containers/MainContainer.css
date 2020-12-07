@@ -1,16 +1,21 @@
 .recent-posts-container{
-  border: solid red;
+  border: solid white;
   width: 80%;
   margin: auto;
   margin-top: 10%;
 }
 
 .recent-title {
-  border: solid blue;
+  /* border: solid blue; */
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  border-bottom: solid white;
+  padding-bottom: 10px;
 }
 
 .recent-posts{
-  border: solid green;
+  /* border: solid green; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -18,5 +23,5 @@
 }
 
 .recent-div{
-  border: solid purple;
+  /* border: solid purple; */
 }

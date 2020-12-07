@@ -27,7 +27,7 @@ function TrendingContainer(props) {
 
   return (
     <div >
-      <h2>Trending</h2>
+      <h2 className="trending-title">Trending</h2>
       <div className="slideshow-container">
         <div className="image-trending">{trendingPosts}</div>
       </div>

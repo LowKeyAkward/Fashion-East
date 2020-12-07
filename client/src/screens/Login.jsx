@@ -16,7 +16,7 @@ function Login(props) {
   }
 
   return (
-    <div>
+    <div className="login-div">
       <form onSubmit={(e) => {
         e.preventDefault()
         props.handleLogin(formData)
