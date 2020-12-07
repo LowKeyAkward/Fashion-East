@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import "./Register.css"
 
 function Register(props) {
   const [formData, setFormData] = useState({
@@ -16,7 +17,7 @@ function Register(props) {
   }
 
   return (
-    <div>
+    <div className="register-div">
       <form onSubmit={(e) => {
         e.preventDefault()
         props.handleRegister(formData)
