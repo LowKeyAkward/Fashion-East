@@ -1,3 +1,9 @@
 .home-div{
-  margin-top: 200px;
+  margin-top: 100px;
+  border: solid purple;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
