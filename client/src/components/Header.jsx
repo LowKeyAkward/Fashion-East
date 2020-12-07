@@ -19,7 +19,10 @@ function Header(props) {
   }
 
   useEffect(() => {
-    playing ? audio.play() : audio.pause()
+    const audioplayer = () => {
+      playing ? audio.play() : audio.pause()
+    }
+    audioplayer()
   }, [playing])
 
   return (

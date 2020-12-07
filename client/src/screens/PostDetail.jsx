@@ -18,7 +18,6 @@ function PostDetail(props) {
       const comment = await getAllComments()
       setComment(comment)
       setIsLoaded(true)
-      console.log(comment)
     }
     fetchPost()
   }, [id])
