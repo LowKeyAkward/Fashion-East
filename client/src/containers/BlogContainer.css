@@ -1,0 +1,25 @@
+.blog-div{
+  border: solid green;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.blog-image{
+  border: solid blue;
+  height: 500px;
+  width: auto;
+}
+
+.blog-content{
+  border: solid black;
+}
+
+.blog-title{
+  border: solid red;
+}
+
+.blog-text{
+  border: solid purple;
+}
